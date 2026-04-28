@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+	--text: #363639;
+	--cursive: 'NewIconScript', serif
+}
+
+body {
+	color: var(--text);
+	font-family: 'Cardo', serif;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+}
+
+.cursive {
+	font-family: var(--cursive);
+}

@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'NewIconScript';
+	src: url('./NewIconScript-Regular.woff2') format('woff2'),
+		url('./NewIconScript-Regular.woff') format('woff');
+	font-weight: normal;
+	font-size: normal;
+	font-display: swap;
+}
