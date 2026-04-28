@@ -148,7 +148,7 @@ const submitRsvp = async () => {
 	errors.submit = ''
 
 	try {
-		await axios.post('http://localhost:3000/rsvp', {
+		await axios.post(`${API_URL}/rsvp`, {
 			name: form.name.trim(),
 			attending: form.attending,
 			guests: form.attending ? form.guests : 0,

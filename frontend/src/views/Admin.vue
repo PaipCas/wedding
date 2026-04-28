@@ -36,7 +36,7 @@ const list = ref([])
 
 onMounted(async () => {
 	try {
-		const res = await axios.get("http://localhost:3000/rsvp")
+		const res = await axios.get(`${API_URL}/rsvp`)
 		list.value = res.data
 	} catch (err) {
 		console.error(err)
