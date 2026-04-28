@@ -14,11 +14,11 @@
 <script setup>
 import { ref } from 'vue';
 
-import Hero from './components/Hero.vue';
-import Loader from './components/Loader.vue';
-import Countdown from './components/Countdown.vue';
-import Details from './components/Details.vue';
-import RSVP from './components/RSVP.vue';
+import Hero from '../components/Hero.vue';
+import Loader from '../components/Loader.vue';
+import Countdown from '../components/Countdown.vue';
+import Details from '../components/Details.vue';
+import RSVP from '../components/RSVP.vue';
 
 const appReady = ref(false)
 const countdownEl = ref(null)
