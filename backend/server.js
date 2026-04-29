@@ -29,6 +29,10 @@ app.post("/rsvp", async (req, res) => {
 })
 
 // 📥 listar
+app.get("/", (req, res) => {
+  res.send("API funcionando");
+});
+
 app.get("/rsvp", async (req, res) => {
 	const list = await RSVP.find().sort({ _id: -1 })
 	res.json(list)
