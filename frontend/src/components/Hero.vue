@@ -12,7 +12,7 @@
 
 			<div class="separator" ref="dividerEl">Celebremos juntos el inicio de esta nueva etapa</div>
 
-			<div class="date" ref="ornamentEl">20 de junio · 2025</div>
+			<div class="date" ref="ornamentEl">20 de junio · 2026</div>
 		</div>
 
 		<div class="scrollIndicator" ref="scrollEl">

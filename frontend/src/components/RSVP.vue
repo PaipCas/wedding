@@ -12,7 +12,7 @@
 				<h2>Confirma tu presencia</h2>
 				<p class="before">
 					Tu asistencia es un regalo en sí mismo.<br>
-					Confirma antes del <strong>10 de junio</strong>
+					Confirma antes del <strong>31 de mayo</strong>
 				</p>
 			</div>
 
