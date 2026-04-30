@@ -79,7 +79,7 @@ onMounted(async () => {
 		.to(dividerEl.value, { opacity: 1, duration: 0.6 }, '-=0.2')
 		.to(scrollEl.value, { opacity: 1, y: 0, duration: 0.6 }, '-=0.1')
 		.call(() => {
-			document.body.classList.remove('overflow-hidden')
+			document.body.style.overflow = 'auto'
 
 			const scrollTl = gsap.timeline({
 				scrollTrigger: {

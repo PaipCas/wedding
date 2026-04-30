@@ -20,6 +20,7 @@ const emit = defineEmits(['done'])
 const visible = ref(true)
 
 onMounted(() => {
+	document.body.style.overflow = 'hidden'
 	setTimeout(() => {
 		visible.value = false;
 		emit('done')
